@@ -6,4 +6,5 @@ router.get('/', function(req, res, next) {
   res.render('helmets', { title: 'Search Results: Helmets' });
 });
 
+
 module.exports = router;
